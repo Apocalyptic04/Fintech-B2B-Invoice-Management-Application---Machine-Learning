@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+html,body {
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  margin-right: 0px;
+  width: 1920px;
+  height: 930px;
+  overflow-x: hidden;
+  background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.abc{
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 30px;
+  width: 289px;
+  height: 52px;
+  opacity: 1;
+}
+
+.highradius{
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 843px;
+  width: 235px;
+  height: 50px;
+  background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.name1{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 141px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.myDiv{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 31px;
+  width: 1860px;
+  height: 739px;
+  background: #273D49CC 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.addname{
+  position: absolute;
+  top: 41px;
+  left: 1148px;
+  width: 37px;
+  margin: 0px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.editname{
+  position: absolute;
+  top: 41px;
+  left: 1271px;
+  width: 36px;
+  margin: 0px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #97A1A9;
+  opacity: 1;
+}
+
+.deletename{
+  position: absolute;
+  top: 41px;
+  left: 1389px;
+  width: 61px;
+  height: 23px;
+  margin: 0px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #97A1A9;
+  opacity: 1;
+}
+
+#checkb {
+  cursor: pointer;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border: 2px solid #97A1A9;
+  border-radius: 3px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  background-color:transparent;
+  cursor: pointer;
+  
+}
+
+#checkb:checked {
+  background-color:#14AFF1;
+}
+
+table {
+  position: absolute;
+  top: 105px;
+  left: 61px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin-right: 19px;
+}
+
+td {
+  margin-left: 41px;
+  margin-right: 19px;
+  width: 1600px;
+  text-align: center;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  background-color: transparent;
+  height: 23px;
+  opacity: 1;
+}
+
+tr:nth-child(odd) {
+  width: 1800px;
+  height: 50px;
+  background-color:transparent;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+tr:nth-child(even) {
+  width: 1800px;
+  height: 50px;
+  background-color: #283A46;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+th {
+  text-align: center;
+  font: normal normal normal 18px/21px Ubuntu;
+  letter-spacing: 0px;
+  color: #97A1A9;
+  background-color:transparent;
+  height: 20px;
+  opacity: 1;
+}
+
+.addbutton{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 1106px;
+  width: 99px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #97A1A9;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+hr {
+  top: 296px;
+  left: 60px;
+  margin: 0;
+  width: 1800px;
+  height: 0px;
+  border: 1px solid #283A46;
+  opacity: 1;
+}
+
+
+#line {
+  top: 310px;
+  left: 50px;
+  position: absolute;
+  width: 1800px;
+  height: 0px;
+}
+
+.addbutton:hover,.addbutton:focus{
+  border: 1px solid #14AFF1;
+  cursor: pointer;
+
+}
+
+.addicon{
+  position: absolute;
+  top: 46px;
+  left: 1124px;
+  width: 14px;
+  height: 14px;
+  color: #FFFFFF;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.editicon{
+  position: absolute;
+  top: 45px;
+  left: 1245px;
+  width: 16px;
+  height: 16px;
+  background: #97A1A9 0% 0% no-repeat padding-box;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.deleteicon{
+  position: absolute;
+  top: 52px;
+  left: 1365px;
+  width: 14px;
+  height: 2px;
+  background: #97A1A9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.editbutton{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 1225px;
+  width: 102px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #97A1A9;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.editbutton:hover{
+  border: 1px solid #14AFF1;
+}
+
+.deletebutton{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 1347px;
+  width: 123px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #97A1A9;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.deletebutton:hover{
+  border: 1px solid #14AFF1;
+}
+
+.searchbox:focus {
+  outline: none;
+}
+
+.searchbox{
+  position: absolute;
+  margin-top: 30px;
+  left: 1490px;
+  width: 340px;
+  height: 41px;
+  padding-left: 10px;
+  text-align: left;
+  background: transparent;
+  border: 1px solid #356680;
+  font: normal normal normal 18px/21px Ubuntu;
+  letter-spacing: 0px;
+  border-radius: 10px;
+  color: #97A1A9;
+  opacity: 1;
+}
+
+.searchbox:hover{
+  border: 1px solid #14AFF1;
+}
+
+.searchicon{
+  position: absolute;
+  top: 37px;
+  left: 1805px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.modal{
+  display:block;
+  position: fixed;
+  z-index:1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow:auto;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.modal-content{
+  position: absolute;
+  margin-top:226px;
+  margin-left:407px;
+  width: 1106px;
+  height:509px;
+  background: #2A3E4C 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 24px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+  z-index:-3;
+}
+
+.closeBtn{
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 1052px;
+  width: 24px;
+  height: 24px;
+  background: transparent url('img/baseline-close-24px.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.addinvoice{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 147px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.c1{
+  position: absolute;
+  top: 131px;
+  left: 30px;
+  width: 153px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97A1A9;
+}
+
+.c1star{
+  position: absolute;
+  top: 131px;
+  left: 183px;
+  width: 10px;
+  height: 23px;
+  padding:0;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FF5B5B;
+}
+
+#c1{
+  position: absolute;
+  top: 121px;
+  left: 213px;
+  width: 300px;
+  height: 45px;
+  background: #283A46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 10px;
+  padding:0px;
+  outline: none;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.c2{
+  position: absolute;
+  top: 204px;
+  left: 30px;
+  width: 131px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97A1A9;
+}
+
+.c2star{
+  position: absolute;
+  top: 204px;
+  left: 161px;
+  width: 10px;
+  height: 23px;
+  padding:0;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FF5B5B;
+}
+
+#c2{
+  position: absolute;
+  top: 194px;
+  left: 213px;
+  width: 300px;
+  height: 45px;
+  background: #283A46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 10px;
+  padding:0px;
+  outline: none;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.c3{
+  position: absolute;
+  top: 277px;
+  left: 30px;
+  width: 106px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97A1A9;
+}
+
+.c3star{
+  position: absolute;
+  top: 277px;
+  left: 136px;
+  width: 10px;
+  height: 23px;
+  padding:0;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FF5B5B;
+}
+
+#c3{
+  position: absolute;
+  top: 267px;
+  left: 213px;
+  width: 300px;
+  height: 45px;
+  background: #283A46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 10px;
+  padding:0px;
+  outline: none;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.c4{
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  width: 149px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97A1A9;
+}
+
+.c4star{
+  position: absolute;
+  top: 350px;
+  left: 179px;
+  width: 10px;
+  height: 23px;
+  padding:0;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FF5B5B;
+}
+
+#c4{
+  position: absolute;
+  top: 340px;
+  left: 213px;
+  width: 300px;
+  height: 45px;
+  background: #283A46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 10px;
+  padding:0px;
+  outline: none;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.c5{
+  position: absolute;
+  top: 131px;
+  left: 593px;
+  width: 91px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97A1A9;
+}
+
+.c5star{
+  position: absolute;
+  top: 131px;
+  left: 684px;
+  width: 10px;
+  height: 23px;
+  padding:0;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FF5B5B;
+}
+
+#c5{
+  position: absolute;
+  top: 121px;
+  left: 776px;
+  width: 300px;
+  height: 45px;
+  background: #283A46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 10px;
+  padding:0px;
+  outline: none;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.r1{
+  position: absolute;
+  top: 91px;
+  width: 1106px;
+  margin:0px;
+  height: 0px;
+  border: 1px solid #1A262F;
+  opacity: 0.73;
+}
+
+.r2{
+  position: absolute;
+  top: 410px;
+  width: 1106px;
+  margin:0px;
+  height: 0px;
+  border: 1px solid #1A262F;
+  opacity: 0.73;
+}
+
+.c6{
+  position: absolute;
+  top: 440px;
+  left: 49px;
+  padding: 0;
+  width: 60px;
+  height: 23px;
+  text-align: left;
+  border: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #14AFF1;
+  opacity: 1;
+}
+
+.c7{
+  position: absolute;
+  top: 440px;
+  left: 887px;
+  width: 87px;
+  height: 45px;
+  border: 1px solid #14AFF1;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.c8{
+  position: absolute;
+  top: 440px;
+  left: 999px;
+  width: 77px;
+  height: 45px;
+  border: 1px solid #14AFF1;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}

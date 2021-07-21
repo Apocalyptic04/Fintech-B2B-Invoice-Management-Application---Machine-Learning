@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+html,body {
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 1920px;
+  height: 930px;
+  overflow-x: hidden;
+  background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#container {
+  width: 100%;
+}
+
+#first {
+  width: 50%;
+  float: left;
+}
+
+#first .name1 {
+  margin-top: 94px;
+  margin-left: 175px;
+  margin-bottom: 12px;
+  width: 204px;
+  height: 31px;
+  text-align: left;
+  font: normal normal bold 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  color: #14AFF1;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+#first .name2 {
+  margin-top: 12px;
+  margin-left: 175px;
+  margin-bottom: 21px;
+  width: 484px;
+  height: 27px;
+  text-align: left;
+  font: normal normal normal 24px/28px Ubuntu;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 0.52;
+}
+
+#second {
+  width: 50%;
+  float: left;
+}
+
+#second .name3 {
+  display: inline-block;
+  margin-top: 91px;
+  margin-left: 703px;
+  margin-bottom: 21px;
+  width: 130px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #97A1A9;
+  opacity: 1;
+}
+
+#second .i1 {
+  display: inline-block;
+  top: 135px;
+  margin-left: 703px;
+  margin-right: 0px;
+  width: 24px;
+  height: 24px;
+  background: transparent url("img/check_box-black-18dp.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#second .i2 {
+  display: inline-block;
+  top: 135px;
+  margin-left: 17px;
+  width: 24px;
+  height: 24px;
+  background: transparent url("img/check_box_outline_blank-black-18dp.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#second .i3 {
+  display: inline-block;
+  top: 134px;
+  left: 1748px;
+  margin-left: 17px;
+  width: 24px;
+  height: 24px;
+  background: transparent url("img/calendar_today-24px.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#container2 {
+  display: inline-block;
+  width: 100%;
+}
+
+#n1 {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+
+#firstcolumn {
+  width: 40%;
+  float: left;
+}
+
+#firstcolumn #l1 {
+  display: inline-block;
+  margin-top: 122px;
+  margin-left: 175px;
+  width: 250px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#firstcolumn #l2 {
+  margin-top: 54px;
+  margin-left: 175px;
+  width: 400px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#firstcolumn #l3 {
+  margin-top: 55px;
+  margin-left: 175px;
+  width: 400px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#firstcolumn #l4 {
+  margin-top: 55px;
+  margin-left: 175px;
+  width: 400px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#firstcolumn #l5 {
+  margin-top: 51px;
+  margin-left: 175px;
+  width: 500px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#n2 {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+
+#secondcolumn {
+  width: 60%;
+  float: left;
+}
+
+#secondcolumn #l6 {
+  margin-top: 122px;
+  margin-left: 151px;
+  width: 500px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#secondcolumn #l7 {
+  margin-top: 52px;
+  margin-left: 151px;
+  width: 500px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+#secondcolumn #l8 {
+  margin-top: 51px;
+  margin-left: 151px;
+  width: 800px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 28px/32px Ubuntu;
+  letter-spacing: 0px;
+  opacity: 1;
+}
